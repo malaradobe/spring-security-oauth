@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
  
 @Component({
     selector: 'app-root',
+    standalone: false,
     template: `<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">

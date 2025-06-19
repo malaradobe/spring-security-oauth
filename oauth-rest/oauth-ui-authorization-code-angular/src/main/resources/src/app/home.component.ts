@@ -3,6 +3,7 @@ import {AppService} from './app.service'
  
 @Component({
     selector: 'home-header',
+    standalone: false,
     providers: [AppService],
   template: `<div class="container" >
     <button *ngIf="!isLoggedIn" class="btn btn-primary" (click)="login()" type="submit">Login</button>

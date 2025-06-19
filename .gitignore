@@ -31,3 +31,4 @@ node/
 ## OS ##
 .DS_Store
 .java-version
+oauth-rest/oauth-ui-authorization-code-angular/src/main/resources/.angular/

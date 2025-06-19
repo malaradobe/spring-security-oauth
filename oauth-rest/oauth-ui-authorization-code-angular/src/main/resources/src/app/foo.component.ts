@@ -3,6 +3,7 @@ import {AppService, Foo} from './app.service'
 
 @Component({
   selector: 'foo-details',
+  standalone: false,
   providers: [AppService],  
   template: `<div class="container">
     <h1 class="col-sm-12">Foo Details</h1>
